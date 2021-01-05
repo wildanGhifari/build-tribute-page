@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+header {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#img-div {
+  width: 80%;
+  background-color: #fff;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  border: solid 1px rgba(200, 200, 200, 0.1);
+  border-radius: 25px;
+}
+
+#img-caption {
+  text-align: left;
+  padding: 24px 16px;
+}
+
+#tribute-info {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#tribute-info ul {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+#tribute-info li {
+  padding: 12px 0;
+  line-height: 24px;
+}
+
+#headline {
+  padding: 48px 0;
+}
+
+blockquote {
+  width: 50%;
+  margin: auto;
+  padding: 30px 0;
+  text-align: justify;
+}
+
+blockquote p {
+  font-style: italic;
+  line-height: 24px;
+}
