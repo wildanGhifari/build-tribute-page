@@ -84,6 +84,34 @@ cite {
   padding-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  #img-div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #headline {
+    padding: 24px 0;
+  }
+
+  #tribute-info ul {
+    width: 80%;
+  }
+
+  blockquote {
+    width: 80%;
+  }
+
+  cite {
+    float: left;
+    margin-top: 24px !important;
+  }
+}
+
 @media (max-width: 576px) {
   .container {
     padding: 0 10px;
